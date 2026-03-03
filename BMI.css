@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212121;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+h1{
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.conatiner{
+    background-color: #fff;
+    padding: 30px 15px;
+    border-radius: 12px;
+    width: 320px;
+}
+
+.conatiner label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+}
+
+.conatiner input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.conatiner input:focus{
+    border-color: #667eea;
+}
+
+#button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #667eea;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.1s ease;
+}
+
+#button:hover{
+    background-color: #5563d1;
+}
+
+#button:active{
+    transform: scale(0.98);
+}
+
+.output{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+#weight-guide{
+    color: #212121;
+}
+
+#weight-guide p{
+    margin-top: 15px;
+}
